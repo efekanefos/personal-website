@@ -82,3 +82,9 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 450px) {
+  .projectCardOverviewImg {
+    min-width: 100%;
+  }
+}
