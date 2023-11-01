@@ -8,7 +8,7 @@ function Header({ theme, setTheme }) {
     <header className="headerContent">
       <div className="logoContent">
         <a href="/" className="logo">
-          Logo
+          efekanEfe
         </a>
       </div>
 

@@ -1,0 +1,84 @@
+.projectsContent,
+.projectCardContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem;
+}
+.projectsTitle {
+  padding-bottom: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+.projectCardContent {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border: 2px dashed #fff;
+  box-shadow: 5px 5px #22c55e;
+}
+.projectCardInfoContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.projectCardOverviewContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projectCardOverviewImg,
+.productCardTechStackImg {
+  width: 100%;
+}
+
+.projectCardTitle {
+  font-size: 1.25rem;
+  background-color: #22c55e;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.projectCardDesc {
+  font-size: 0.9rem;
+}
+.projectCardTitle,
+.projectCardDesc {
+  color: #fff;
+}
+.productCardTechStackList {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+}
+.productCardTechStackListItem {
+  max-width: 2.5rem;
+  min-width: 2.5rem;
+}
+
+@media (max-width: 1000px) {
+  .projectCardContent {
+    display: flex;
+  }
+  .projectCardOverviewImg {
+    min-width: 380px;
+  }
+  .projectCardDesc {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectCardContent {
+    display: flex;
+    flex-direction: column;
+  }
+}

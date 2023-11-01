@@ -9,3 +9,11 @@
 .container--light {
   background-color: #fff;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.darkText {
+  color: #0f0f0f !important;
+}

@@ -37,6 +37,7 @@
   background-color: rgba(255, 255, 255, 0.15);
   padding: 0.4rem;
   cursor: pointer;
+  z-index: 1;
 }
 .connectImgContent {
   max-width: 1.5rem;

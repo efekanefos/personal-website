@@ -6,8 +6,10 @@ import downArrow from "../../images/down_arrow.png";
 function Hero({ theme, setTheme }) {
   return (
     <main className="heroContent">
-      <h1 className="heroTitle">Frontend Developer</h1>
-      <p className="heroDesc">
+      <h1 className={`heroTitle ${theme === "light" ? "darkText" : ""}`}>
+        Frontend Developer
+      </h1>
+      <p className={`heroDesc ${theme === "light" ? "darkText" : ""}`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ipsa.
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ipsa.
         Lorem ipsum dolor sit
@@ -20,7 +22,7 @@ function Hero({ theme, setTheme }) {
       </button>
 
       <div className="downSidedArrowContent">
-        <a href="/">
+        <a href="#aboutContent">
           <img
             src={downArrow}
             alt="Down Sided Arrow"

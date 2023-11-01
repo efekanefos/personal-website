@@ -1,0 +1,107 @@
+.aboutContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.75fr 0.25fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 1rem 2rem;
+  margin-top: -50px;
+}
+.aboutProfileContent {
+  border-left: 1px solid rgb(238, 238, 238, 0.5);
+  padding-left: 0.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutProfileImgContent {
+  min-width: 233px;
+}
+
+.aboutProfileImg {
+  width: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutInfoContent {
+  padding-left: 0.5rem;
+}
+.aboutTitle,
+.aboutDesc {
+  color: #fff;
+}
+.aboutTitle {
+  font-weight: 600;
+}
+.aboutDesc {
+  font-size: 0.85rem;
+  padding: 0.5rem 0;
+  letter-spacing: 0.05rem;
+}
+.aboutListItemDesc {
+  color: #fff;
+}
+.aboutList {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0.5rem;
+}
+.aboutListItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 0.35rem;
+  text-decoration: none;
+  border: 5px double #22c55e;
+}
+.aboutListItemLink {
+  text-decoration: none;
+}
+.aboutIconContent {
+  max-width: 1.5rem;
+  min-width: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutIcon {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .aboutContent {
+    grid-template-columns: 1fr 0.5fr;
+  }
+  .aboutProfileImgContent {
+    min-width: 10rem;
+  }
+  .aboutDesc {
+    font-size: 0.75rem;
+  }
+}
+@media (max-width: 768px) {
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutInfoContent {
+    order: 1;
+  }
+  .aboutProfileContent {
+    border-left: none;
+  }
+  .aboutList {
+    margin-top: 1rem;
+    flex-wrap: wrap;
+  }
+}

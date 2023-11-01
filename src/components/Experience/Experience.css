@@ -1,0 +1,77 @@
+.experienceContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem 1rem;
+}
+.experienceTitle {
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+.experienceColumns {
+  display: grid;
+  grid-template-columns: 0.15fr 0.85fr;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.experienceDateContent {
+  padding-right: 0.5rem;
+  border-right: 1px solid rgb(238, 238, 238, 0.5);
+}
+.experienceInfoContent {
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.experienceTitle,
+.experienceDate,
+.experienceCompanyTitle,
+.experiencePositionDesc,
+.experienceWorkDesc {
+  color: #fff;
+}
+.experienceCompanyTitle {
+  width: fit-content;
+  font-size: 1.25rem;
+  background-color: #22c55e;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+  font-weight: 500;
+}
+.experiencePositionDesc {
+  border-bottom: 1px solid rgb(238, 238, 238, 0.5);
+  padding-bottom: 0.1rem;
+  width: fit-content;
+}
+.experienceWorkDesc {
+  font-size: 0.9rem;
+}
+.experienceSkillList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.5rem;
+}
+.experienceSkillListItem {
+  color: #ccc;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 0.85rem;
+  border-bottom: 2px solid #22c55e;
+}
+
+@media (max-width: 768px) {
+  .experienceColumns {
+    display: flex;
+    flex-direction: column;
+  }
+  .experienceDate {
+    padding-bottom: 0.5rem;
+  }
+  .experienceInfoContent {
+    padding: 0;
+  }
+}

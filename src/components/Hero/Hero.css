@@ -6,7 +6,9 @@
   max-width: 700px;
   margin: 0 auto;
   gap: 1.25rem;
-  height: calc(100vh - 150px);
+  height: 100vh;
+  transform: translateY(-100px);
+  padding: 0 1rem;
 }
 .heroTitle,
 .heroDesc {
