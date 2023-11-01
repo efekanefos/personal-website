@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headerContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.logo {
+  color: #fff;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.infoHeaderContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.themeChangeContent,
+.connectImgContent {
+  max-width: 2.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.themeChangeContent {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 0.4rem;
+  cursor: pointer;
+}
+.connectImgContent {
+  max-width: 1.5rem;
+}
+.themeChangeImg,
+.connectImg {
+  width: 100%;
+}
+.connectContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+}
+.connectDesc {
+  font-weight: 500;
+  margin: 0;
+}
