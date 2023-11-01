@@ -7,11 +7,13 @@ function ProjectCard() {
   return (
     <div className="projectCardContent">
       <div className="projectCardOverviewContent">
-        <img
-          src={trelloProject}
-          alt="Project Overview"
-          className="projectCardOverviewImg"
-        />
+        <a href="https://react-app-kanban.vercel.app/">
+          <img
+            src={trelloProject}
+            alt="Project Overview"
+            className="projectCardOverviewImg"
+          />
+        </a>
       </div>
 
       <div className="projectCardInfoContent">
